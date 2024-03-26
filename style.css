@@ -1,1 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    background-color: gray;
+}
+
+header {
+    text-transform: uppercase;
+    background-color: white;
+    border: 2px solid;
+    padding-bottom: 25px;
+}
+
+.container {
+    text-transform: uppercase;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(180px, auto);
+    gap: 2px;
+}
+
+.item {
+    background-color: white;
+    border: 2px solid;
+}
+
+.item4 {
+    grid-column: 1/4;
+}
+
+.item5 {
+    grid-column: 1/3;
+}
+
+footer {
+    text-transform: uppercase;
+    background-color: white;
+    border: 2px solid;
+    padding-bottom: 32px;
+}
